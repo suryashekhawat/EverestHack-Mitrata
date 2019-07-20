@@ -46,9 +46,13 @@ router
     if (received_message.toLowerCase() == "hi"){
       twiml = twimlMessage("Hi,\nKindly Provide your details (details,name,age,sex,address,medical_emergency)\ncomma separated");
     }
-    else if(received_message.toLowerCase().split(",")[0] == "details"){
+    else if(received_message.toLowerCase().split(",")[0] == "details" && len(received_message.toLowerCase().split()) > 1){
       let string_value = "These are the nearest hospitals according to your location\n1:Nepal orthopedic hospital,0.75km\n2:Shankarapur hospital, 1km\n3:Nmc, 2km\n4Nepal medical college, 3.8km"
       twiml = twimlMessage(string_value)
+    }
+    else{
+    let string_value = "The details provided are incorrect or are wrongly formatted. Sorry try again with hi."
+    twiml = twimlMessage(string_value)
     }
 
     res.writeHead(200, {'Content-Type': 'text/xml'});
