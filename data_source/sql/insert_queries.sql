@@ -38,3 +38,43 @@ insert into medical_facility (user_id, age, status, frequency, area, year, perce
 ​
 insert into medical_facility (user_id, age, status, frequency, area, year, percent_affected,start_date,end_date,situation_affected,provider_name)
 	values  (null, '0-11', 'registered', 2, 'Godawari municipaltiy',2017,79.4,'2017-03-16','2017-04-16','growth monitoring','medical facilities');
+
+
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1500000, 500000,100000,100000,600000,100000,'2019-07-16','2019-07-20',100000,'measles vactination');
+​
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1400000, 400000,100000,100000,500000,100000,'2019-01-16','2019-01-25',100000,'rubella vactination');
+​
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1300000, 300000,100000,100000,600000,100000,'2018-07-14','2018-07-22',100000,'polio vactination');
+​
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1200000, 200000,100000,100000,600000,100000,'2018-01-14','2018-01-22',100000,'polio vactination');
+​
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1100000, 100000,100000,100000,600000,100000,'2017-07-10','2017-07-15',100000,'measles vactination');
+​
+insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
+	values  (null, 1000000, 100000,100000,100000,500000,100000,'2017-01-10','2017-01-15',100000,'rubella vactination');
+
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'professional led binocular', '00288','ningbo proway optics,Zhejiang,china');
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'full automatic puncture needle', '00289','Zhejiang curaway,Zhejiang,china');
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'latest Bein safute anorecutal', '00290','Zhejiang curaway medical technologyco,ltd.,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'percutaneous edoscopic lumbar decectomy', '00290','ningbo proway optics,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'wrist type medical laser', '00291','Zhejiang curaway,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'full Bein safute needle', '00292','Zhejiang curaway,Zhejiang,china');
