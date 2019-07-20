@@ -78,3 +78,19 @@ insert into inventory_hospital (inventory_hospital_id, name, code, available_add
 ​
 insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
 	values  (null, 'full Bein safute needle', '00292','Zhejiang curaway,Zhejiang,china');
+
+
+insert into citizen_table (citizen_id, name, age, address, status, phone_no, blood_group,medical_condition,email)
+	values  (null, 'sourabh pandey', '26','nepalganj','inactive','8559956659','B+','broken nose','sp@gmail.com');
+​
+insert into citizen_table (citizen_id, name, age, address, status, phone_no, blood_group,medical_condition,email)
+	values  (null, 'bhavesh solanki', '20','Godawari','active','8559944799','A+','fever','bs815234@gmail.com');
+​
+insert into citizen_table (citizen_id, name, age, address, status, phone_no, blood_group,medical_condition,email)
+	values  (null, 'enish shah', '19','Godawari','active','9840307762','B+','broken leg','enish@gmail.com');
+​
+insert into citizen_table (citizen_id, name, age, address, status, phone_no, blood_group,medical_condition,email)
+	values  (null, 'vikas rathore', '25','Godawari','inactive','8559957799','A+','bleeding nose','spa@gmail.com');
+​
+insert into citizen_table (citizen_id, name, age, address, status, phone_no, blood_group,medical_condition,email)
+	values  (null, 'adarsh', '19','Godawari','active','9559957799','B+','heart broken','adi@gmail.com');
