@@ -48,6 +48,16 @@ router
     });
   });
 
+router
+  .get('/policy', (req, res, next)=>{
+    connection.query(`select * from inventory_hospital`, function(error, results, fields){
+      console.log(error, results);
+      res.send(
+        {
+          data: results
+        })
+    });
+  });
 
 
 router
@@ -65,7 +75,47 @@ router
     ], function(error, results, fields){
       console.log(error, results);
       res.send({
-        message: "citizen created"
+        message: "citizen onboarded"
+      });
+    });
+  });
+
+router
+  .post('/hospital', (req, res, next)=> {
+    connection.query(`insert into hospital (hospital_id, name, code, inventory, latitude, longitude, inventory_stock)
+  	values  (null, ?, ?,?,?,?,?,?,?)`, [
+      req.body.name,
+      req.body.code,
+      req.body.inventory,
+      req.body.latitude,
+      req.body.longitude,
+      req.body.inventory_stock
+    ], function(error, results, fields){
+      console.log(error, results);
+      res.send({
+        message: "hospital onboarded"
+      });
+    });
+  });
+
+router
+  .post('/policy', (req, res, next)=> {
+    connection.query(`insert into hospital (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge, start_date, end_date, develpoment_charge, services_provided)
+  	values  (null, ?, ?,?,?,?,?,?,?)`, [
+      req.body.overall_budget,
+      req.body.hr_salary,
+      req.body.operation_amount,
+      req.body.procurment_charge,
+      req.body.services_charge,
+      req.body.analysis_charge,
+      req.body.start_date,
+      req.body.end_date,
+      req.body.develpoment_charge,
+      req.body.services_provided
+    ], function(error, results, fields){
+      console.log(error, results);
+      res.send({
+        message: "policy onboarded"
       });
     });
   });
