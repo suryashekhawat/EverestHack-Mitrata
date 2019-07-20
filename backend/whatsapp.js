@@ -13,7 +13,8 @@ router
 
 router
   .post('/', (req, res, next)=>{
-    res.send(req)
+    console.log(req);
+    res.send("new message")
   })
 
 
