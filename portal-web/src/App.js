@@ -1,24 +1,72 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+
+import { Chart } from "react-charts";
+
+
+class MyCustomChart  extends React.Component {
+  state = {
+
+  }
+  constructor(props){
+    super(props);
+  }
+  render() {
+    return (
+        <div className="left-section">
+          my chart
+
+        </div>
+    )
+  };
+
+}
+
+class RealSurveyData  extends React.Component {
+  state = {
+
+  }
+  constructor(props){
+    super(props);
+  }
+  render() {
+    return (
+        <div className="right-section">
+          my real survey data
+
+        </div>
+    )
+  };
+
+}
+
+class SideNav  extends React.Component {
+  state = {
+
+  }
+  constructor(props){
+    super(props);
+  }
+  render() {
+    return (
+        <div>
+          my sidenav
+
+        </div>
+    )
+  };
+
+}
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="">
+      <SideNav></SideNav>
+      <div className="dashboard">
+        <MyCustomChart></MyCustomChart>
+        <RealSurveyData></RealSurveyData>
+      </div>
     </div>
   );
 }
