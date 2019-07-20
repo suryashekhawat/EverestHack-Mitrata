@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS hospital (hospital_id int NOT NULL AUTO_INCREMENT,
 	 latitude float,
 	 longitude float,
 	 inventory_stock VARCHAR (225),
-	 PRIMARY KEY (hospital_id),
+	 PRIMARY KEY (hospital_id)
 ​
 	  );
 CREATE TABLE IF NOT EXISTS citizen_table (citizen_id int NOT NULL AUTO_INCREMENT,
