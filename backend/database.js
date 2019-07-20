@@ -13,7 +13,7 @@ connection.connect(function(err) {
     return;
   }
 
-  console.log('connected as id ' + connection.threadId);
+  console.log('database is connected as id ' + connection.threadId);
 });
 
 
