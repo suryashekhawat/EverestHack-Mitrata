@@ -1,6 +1,7 @@
 DROP DATABASE IF EXISTS everest_db;
 create database everest_db;
 USE everest_db;
+
 DROP TABLE IF EXISTS medical_facility;
 DROP TABLE IF EXISTS hospital;
 DROP TABLE IF EXISTS citizen_table;
@@ -46,17 +47,4 @@ CREATE TABLE IF NOT EXISTS inventory_hospital (inventory_hospital_id int NOT NUL
 	 available_address VARCHAR (225),
 	 PRIMARY KEY (inventory_hospital_id));
 ​
-CREATE TABLE IF NOT EXISTS policy (policy_id int NOT NULL AUTO_INCREMENT,
-     overall_budget float,
-     hr_salary float,
-     operation_amount float,
-     procurment_charge float,
-     services_charge float,
-     analysis_charge float,
-     start_date VARCHAR (225),
-     end_date  VARCHAR (225),
-     develpoment_charge float,
-     PRIMARY KEY (policy_id)
-
-
-      );
+CREATE TABLE IF NOT EXISTS policy (policy_id int NOT NULL AUTO_INCREMENT,overall_budget float,hr_salary float,operation_amount float,procurment_charge float,services_charge float,analysis_charge float,start_date VARCHAR (225), end_date  VARCHAR (225),develpoment_charge float,services_provided varchar(255),PRIMARY KEY (policy_id));
