@@ -57,3 +57,24 @@ insert into policy (policy_id, overall_budget, hr_salary, operation_amount, proc
 ​
 insert into policy (policy_id, overall_budget, hr_salary, operation_amount, procurment_charge, services_charge, analysis_charge,start_date,end_date,develpoment_charge,services_provided)
 	values  (null, 1000000, 100000,100000,100000,500000,100000,'2017-01-10','2017-01-15',100000,'rubella vactination');
+
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'professional led binocular', '00288','ningbo proway optics,Zhejiang,china');
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'full automatic puncture needle', '00289','Zhejiang curaway,Zhejiang,china');
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'latest Bein safute anorecutal', '00290','Zhejiang curaway medical technologyco,ltd.,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'percutaneous edoscopic lumbar decectomy', '00290','ningbo proway optics,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'wrist type medical laser', '00291','Zhejiang curaway,Zhejiang,china');
+​
+​
+insert into inventory_hospital (inventory_hospital_id, name, code, available_address)
+	values  (null, 'full Bein safute needle', '00292','Zhejiang curaway,Zhejiang,china');
