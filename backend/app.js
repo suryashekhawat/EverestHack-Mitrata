@@ -1,3 +1,4 @@
+require('dotenv').config()
 var express = require('express');
 
 var app = express();
@@ -8,7 +9,7 @@ var whatsappRoutes = require('./whatsapp.js');
 
 app.use('/whatsapp', whatsappRoutes);
 app.get('/', (req, res, next)=>{
-    res.send("app running")
+    res.send("App Rinning Everest Hack")
 });
 
 
