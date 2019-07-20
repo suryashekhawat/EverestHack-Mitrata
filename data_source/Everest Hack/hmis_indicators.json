@@ -1,0 +1,159 @@
+{
+	"headers": [{
+		"name": "dx",
+		"column": "Data",
+		"valueType": "TEXT",
+		"type": "java.lang.String",
+		"hidden": false,
+		"meta": true
+	}, {
+		"name": "ou",
+		"column": "Organisation unit",
+		"valueType": "TEXT",
+		"type": "java.lang.String",
+		"hidden": false,
+		"meta": true
+	}, {
+		"name": "pe",
+		"column": "Period",
+		"valueType": "TEXT",
+		"type": "java.lang.String",
+		"hidden": false,
+		"meta": true
+	}, {
+		"name": "value",
+		"column": "Value",
+		"valueType": "NUMBER",
+		"type": "java.lang.Double",
+		"hidden": false,
+		"meta": false
+	}],
+	"metaData": {
+		"items": {
+			"ou": {
+				"name": "Organisation unit"
+			},
+			"AvIFgCutONE": {
+				"name": "Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)"
+			},
+			"YKqn80DnNV5": {
+				"name": "Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)"
+			},
+			"2073April": {
+				"name": "Shrawan 2073 to Asar 2074"
+			},
+			"nFRulByeHnY": {
+				"name": "Percentage of institutional deliveries "
+			},
+			"dx": {
+				"name": "Data"
+			},
+			"cH1bHmSErN6": {
+				"name": "51106 Nepalganj Sub-Metropolitan City"
+			},
+			"pe": {
+				"name": "Period"
+			},
+			"uwIZne8cFIn": {
+				"name": "% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight"
+			},
+			"GgSP8slMkEs": {
+				"name": "Percentage of children aged 0-11 months registered for growth monitoring "
+			},
+			"yPHX34J5S5u": {
+				"name": "30703 Madhyapur Thimi Municipality"
+			},
+			"n92FFE1gzqh": {
+				"name": "Percentage of children aged 9-11 months immunized with measles/rubella 1"
+			},
+			"EXPNptuuVE2": {
+				"name": "Percentage of children aged 12-23 months immunized with measles/rubella 2"
+			},
+			"2074April": {
+				"name": "Shrawan 2074 to Asar 2075"
+			},
+			"nii5J5E0wc7": {
+				"name": "Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) "
+			},
+			"Gn00GlqE1ku": {
+				"name": "Percentage of children aged 0-23 months registered for growth monitoring "
+			},
+			"eHA15T4IKX4": {
+				"name": "70803 Godawari Municipality"
+			},
+			"tNkZTG81L69": {
+				"name": "Percentage of children aged 12-23 months registered for growth monitoring "
+			}
+		},
+		"dimensions": {
+			"dx": ["n92FFE1gzqh", "EXPNptuuVE2", "GgSP8slMkEs", "Gn00GlqE1ku", "tNkZTG81L69", "uwIZne8cFIn", "nFRulByeHnY", "nii5J5E0wc7", "AvIFgCutONE", "YKqn80DnNV5"],
+			"pe": ["2073April", "2074April"],
+			"ou": ["cH1bHmSErN6", "yPHX34J5S5u", "eHA15T4IKX4"],
+			"co": []
+		}
+	},
+	"width": 4,
+	"rows": [
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "79.4"],
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "87.3"],
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "87.5"],
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "94.7"],
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "88.1"],
+		["Percentage of children aged 9-11 months immunized with measles/rubella 1", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "84.5"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "55.4"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "91.0"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "62.1"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "73.8"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "52.0"],
+		["Percentage of children aged 12-23 months immunized with measles/rubella 2", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "52.4"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "50.0"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "58.0"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "81.2"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "104.8"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "77.0"],
+		["Percentage of children aged 0-11 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "71.5"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "33.6"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "42.7"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "78.4"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "101.5"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "46.9"],
+		["Percentage of children aged 0-23 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "45.3"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "17.8"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "25.8"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "75.8"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "98.5"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "16.9"],
+		["Percentage of children aged 12-23 months registered for growth monitoring ", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "22.7"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "6.6"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "4.8"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "3.7"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "0.8"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "3.3"],
+		["% of children aged 0-23 months registered for Growth Monitoring (New) who were Underweight", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "5.5"],
+		["Percentage of institutional deliveries ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "232.6"],
+		["Percentage of institutional deliveries ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "245.6"],
+		["Percentage of institutional deliveries ", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "8.1"],
+		["Percentage of institutional deliveries ", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "11.1"],
+		["Percentage of institutional deliveries ", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "35.0"],
+		["Percentage of institutional deliveries ", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "33.5"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "43.6"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "59.7"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "18.0"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "24.2"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "64.7"],
+		["Percentage of pregnant women who had four ANC checkups as per  protocol (4th, 6th, 8th and 9th month) ", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "54.1"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "43.6"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "59.7"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "18.0"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "24.2"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "64.7"],
+		["Percentage of women who had four ANC check-ups as per protocol (4th, 6th, 8th and 9th months) and delivered in a health facility)", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "54.1"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2073 to Asar 2074", "4.3"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "51106 Nepalganj Sub-Metropolitan City", "Shrawan 2074 to Asar 2075", "3.9"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "30703 Madhyapur Thimi Municipality", "Shrawan 2073 to Asar 2074", "4.5"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "30703 Madhyapur Thimi Municipality", "Shrawan 2074 to Asar 2075", "13.1"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "70803 Godawari Municipality", "Shrawan 2073 to Asar 2074", "21.9"],
+		["Percentage of women who had 3 PNC check-ups as per protocol (1st within 24 hours, 2nd within 72 hours and 3rd within 7 days of delivery)", "70803 Godawari Municipality", "Shrawan 2074 to Asar 2075", "18.4"]
+	],
+	"height": 60
+}
