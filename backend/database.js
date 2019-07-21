@@ -4,7 +4,7 @@ var connection = mysql.createConnection({
   port     : '3306',
   user     : 'root',
   password : 'root',
-  database: 'everest_db'
+  database: 'everest_hack'
 });
 
 connection.connect(function(err) {
