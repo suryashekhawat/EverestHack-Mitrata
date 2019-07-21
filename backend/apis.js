@@ -62,7 +62,7 @@ router
 
 router
   .get('/policy/analyze', (req, res, next)=>{
-    connection.query(`select * from policy where services_provided = 'measles vactination'`, function(error, results, fields){
+    connection.query(`select * from policy where services_provided = ${req.param.services_provided}`, function(error, results, fields){
       console.log(error, results);
       res.send(
         {
