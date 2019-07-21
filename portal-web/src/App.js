@@ -1,9 +1,7 @@
 import React from 'react';
 import './App.css';
-import 'popper.js/dist/popper.min';
-import 'jquery/dist/jquery.min';
+
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.min';
 import { Chart } from "react-charts";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Home from './home';
