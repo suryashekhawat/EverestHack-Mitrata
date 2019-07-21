@@ -69,7 +69,7 @@ router
       // var increment = new_budget*raise_percentage
       // new_budget = new_budget + increment
       // var new_result = {overall_budget:new_budget, hr_salary:results.hr_salary[0]+increment, operation_amount:results.operation_amount[0]+increment, procurment_charge:results.procurment_charge+increment,services_charge:results.services_charge[0]+increment,analysis_charge:results.analysis_charge[0]+increment,develpoment_charge:results.develpoment_charge[0]+increment
-      }
+      // }
       res.send(
         {
           data: result
