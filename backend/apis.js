@@ -50,7 +50,7 @@ router
 
 router
   .get('/policy', (req, res, next)=>{
-    connection.query(`select * from inventory_hospital`, function(error, results, fields){
+    connection.query(`select * from policy`, function(error, results, fields){
       console.log(error, results);
       res.send(
         {
@@ -59,6 +59,17 @@ router
     });
   });
 
+
+router
+  .get('/policy/analyze', (req, res, next)=>{
+    connection.query(`select * from policy`, function(error, results, fields){
+      console.log(error, results);
+      res.send(
+        {
+          data: results
+        })
+    });
+  });
 
 router
   .post('/citizen', (req, res, next)=> {
