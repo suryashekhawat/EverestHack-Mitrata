@@ -1,73 +1,20 @@
 import React from 'react';
 import './App.css';
-
+import 'popper.js/dist/popper.min';
+import 'jquery/dist/jquery.min';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.min';
 import { Chart } from "react-charts";
-
-
-class MyCustomChart  extends React.Component {
-  state = {
-
-  }
-  constructor(props){
-    super(props);
-  }
-  render() {
-    return (
-        <div className="left-section">
-          my chart
-
-        </div>
-    )
-  };
-
-}
-
-class RealSurveyData  extends React.Component {
-  state = {
-
-  }
-  constructor(props){
-    super(props);
-  }
-  render() {
-    return (
-        <div className="right-section">
-          my real survey data
-
-        </div>
-    )
-  };
-
-}
-
-class SideNav  extends React.Component {
-  state = {
-
-  }
-  constructor(props){
-    super(props);
-  }
-  render() {
-    return (
-        <div>
-          my sidenav
-
-        </div>
-    )
-  };
-
-}
-
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import Home from './home';
+import Dashboard from './dashboard';
 
 function App() {
   return (
-    <div className="">
-      <SideNav></SideNav>
-      <div className="dashboard">
-        <MyCustomChart></MyCustomChart>
-        <RealSurveyData></RealSurveyData>
-      </div>
-    </div>
+    <Router>
+      <Route path="/dashboard/" component={Dashboard} />
+      <Route path="/" exact component={Home} />
+    </Router>
   );
 }
 

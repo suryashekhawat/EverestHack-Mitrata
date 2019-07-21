@@ -62,20 +62,20 @@ router
 
 router
   .get('/policy/analyze', (req, res, next)=>{
-    console.log(req);
-    // connection.query(`select * from policy where services_provided = ${req.param.services_provided}`, function(error, results, fields){
-    //   console.log(error, results);
-    //   var new_budget = req.param.new_budget
-    //   // var raise_percentage = ((results.overall_budget[0] - results.overall_budget[1] )/results.overall_budget[0]) * 100
-    //   // var increment = new_budget*raise_percentage
-    //   // new_budget = new_budget + increment
-    //   // var new_result = {overall_budget:new_budget, hr_salary:results.hr_salary[0]+increment, operation_amount:results.operation_amount[0]+increment, procurment_charge:results.procurment_charge+increment,services_charge:results.services_charge[0]+increment,analysis_charge:results.analysis_charge[0]+increment,develpoment_charge:results.develpoment_charge[0]+increment
-    //   // }
-    //   res.send(
-    //     {
-    //       data: result
-    //     })
-    // });
+    console.log(error, results);
+    connection.query(`select * from policy where services_provided = ${req.query.services_provided}`, function(error, results, fields){
+      var new_budget = req.query.new_budget
+      console.log(req.query);
+      var raise_percentage = ((results.overall_budget[0] - results.overall_budget[1] )/results.overall_budget[0]) * 100
+      var increment = new_budget*raise_percentage
+      new_budget = new_budget + increment
+      var result = {overall_budget:new_budget, hr_salary:results.hr_salary[0]+increment, operation_amount:results.operation_amount[0]+increment, procurment_charge:results.procurment_charge+increment,services_charge:results.services_charge[0]+increment,analysis_charge:results.analysis_charge[0]+increment,develpoment_charge:results.develpoment_charge[0]+increment
+      }
+      res.send(
+        {
+          data: result
+        })
+    });
   });
 
 router
