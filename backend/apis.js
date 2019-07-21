@@ -64,11 +64,11 @@ router
   .get('/policy/analyze', (req, res, next)=>{
     connection.query(`select * from policy where services_provided = ${req.param.services_provided}`, function(error, results, fields){
       console.log(error, results);
-      let new_budget = req.param.new_budget
-      let raise_percentage = ((results.overall_budget[0] - results.overall_budget[1] )/results.overall_budget[0]) * 100
-      let increment = new_budget*raise_percentage
+      var new_budget = req.param.new_budget
+      var raise_percentage = ((results.overall_budget[0] - results.overall_budget[1] )/results.overall_budget[0]) * 100
+      var increment = new_budget*raise_percentage
       new_budget = new_budget + increment
-      let new_result = {overall_budget:new_budget, hr_salary:results.hr_salary[0]+increment, operation_amount:results.operation_amount[0]+increment, procurment_charge:results.procurment_charge+increment,services_charge:results.services_charge[0]+increment,analysis_charge:results.analysis_charge[0]+increment,develpoment_charge:results.develpoment_charge[0]+increment
+      var new_result = {overall_budget:new_budget, hr_salary:results.hr_salary[0]+increment, operation_amount:results.operation_amount[0]+increment, procurment_charge:results.procurment_charge+increment,services_charge:results.services_charge[0]+increment,analysis_charge:results.analysis_charge[0]+increment,develpoment_charge:results.develpoment_charge[0]+increment
       }
       res.send(
         {
