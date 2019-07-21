@@ -61,10 +61,9 @@ router
 
 
 router
-  .get('/policy/analyze', (req, res, next)=>{
-    console.log(error, results);
+  .get('/policy/analyze', (req, res, next)=> {
+    var new_budget = req.query.new_budget
     connection.query(`select * from policy where services_provided = ${req.query.services_provided}`, function(error, results, fields){
-      var new_budget = req.query.new_budget
       console.log(req.query);
       // var raise_percentage = ((results.overall_budget[0] - results.overall_budget[1] )/results.overall_budget[0]) * 100
       // var increment = new_budget*raise_percentage
